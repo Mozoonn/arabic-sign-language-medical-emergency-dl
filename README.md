@@ -5,13 +5,13 @@ The project focuses on recognizing **medical emergency–related Arabic signs** 
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 During medical emergencies, clear and rapid communication is critical. Arabic Sign Language recognition systems are still limited, especially in **emergency contexts**.  
 This project explores and compares multiple **deep learning architectures** to identify the most suitable approach for recognizing **emergency-related ArSL signs**.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Focus on **medical emergency communication** using Arabic Sign Language
 - Select a relevant subset of signs from the **KArSL-502 dataset**
 - Evaluate multiple deep learning models for **spatial and temporal understanding**
@@ -30,7 +30,7 @@ This project explores and compares multiple **deep learning architectures** to i
 
 ---
 
-## 🧠 Models Implemented
+##  Models Implemented
 The following deep learning models were implemented and evaluated:
 
 - **ResNet**
@@ -45,7 +45,7 @@ Each model was tested under:
 
 ---
 
-## ⚙️ Training Configuration
+## Training Configuration
 - **Framework:** PyTorch
 - **Optimizer:** Adam / AdamW
 - **Loss Function:** Cross-Entropy Loss
@@ -58,7 +58,7 @@ Each model was tested under:
 
 ---
 
-## 📈 Key Results
+## Key Results
 - **VideoMAE** achieved the highest performance  
   - ~96–97% accuracy in mixed-signer experiments
 - **I3D** demonstrated strong spatiotemporal learning  
@@ -69,7 +69,7 @@ Each model was tested under:
 
 ---
 
-## 🔍 Key Takeaways
+## Key Takeaways
 - Temporal modeling is essential for Arabic Sign Language recognition
 - Transformer-based models excel at capturing complex sign dynamics
 - Skeleton-based approaches are promising for **privacy-preserving** and **real-time** systems
